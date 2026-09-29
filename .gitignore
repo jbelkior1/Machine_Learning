@@ -1,0 +1,14 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Backups
+*.bak
