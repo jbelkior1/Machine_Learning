@@ -45,23 +45,3 @@ Dano_Eco = 2.0000 + 1.7143 * Qtd_Poluente
 O R² de 0.952 indica que o modelo explica cerca de 95% da variação do dano ecológico. O p-value bem abaixo de 0.05 confirma que a relação é estatisticamente significativa.
 
 Previsão para 9 ug/L de poluente: dano ecológico de aproximadamente **17.43**.
-
-## Como rodar
-
-Precisa de Python 3 e das bibliotecas abaixo:
-
-```bash
-pip install numpy pandas matplotlib seaborn statsmodels
-```
-
-Depois:
-
-```bash
-python analise_bivariada.py
-```
-
-Os três gráficos abrem em janelas separadas, um de cada vez. Feche cada janela para o script continuar. Os resultados numéricos e o resumo da regressão saem no terminal.
-
-## Observação
-
-A amostra tem só 6 observações, então o statsmodels avisa que o teste de normalidade dos resíduos (Omnibus) não é confiável abaixo de 8 amostras. Para o objetivo do exercício isso não atrapalha, mas vale saber.
