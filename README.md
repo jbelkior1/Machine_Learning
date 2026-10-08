@@ -1,4 +1,12 @@
-# Análise Bivariada
+# Machine Learning
+
+Exercícios de modelagem linear e análise estatística em Python, da matéria de Modelagem Linear para Aprendizado de Máquina (FIAP).
+
+| Arquivo | O que é |
+|---|---|
+| `analise_bivariada.py` | Análise bivariada e regressão linear simples (OLS), explicada abaixo |
+
+## Análise bivariada
 
 Exercício de análise bivariada entre a quantidade de poluente despejada e o dano ecológico observado.
 
